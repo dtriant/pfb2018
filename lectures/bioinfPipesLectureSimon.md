@@ -2,7 +2,7 @@
 
 ### Getting help
 
-pydoc  
+`pydoc`  
 google 'python3 list comprehensions`  
 https://docs.python.org/3/    -> Quick search  
 Help is available inside python interactive shell
@@ -72,7 +72,7 @@ BEGIN { print "File\tOwner"}   # block executed before main script
 END { print " - DONE -" }      # block executed after main script
 ```
 
-You could run it like this `awk table.awk`. Each column (whitespace-separated) in the input appears in your script as $1, $2, $3 etc. A bit like sys.argv in python.
+You could run it like this `awk table.awk`. Each column (whitespace-separated) in the input appears in your script as \$1, \$2, \$3 etc. A bit like sys.argv in python.
 
 Let's ignore the BEGIN and END blocks for now.
 
@@ -208,7 +208,7 @@ We won't talk about DBs more here, but they are useful for larger data projects.
 
 ### Public databases
 
-__NCBI __
+__NCBI__  
 nr (proteins)  
 nt (nucleotides)  
 Lots of data, uncurated, complete
